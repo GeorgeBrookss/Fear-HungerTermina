@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    max-width: 100dvw;
+    max-height: 88px;
+    padding: 24px 96px;
+    font-family: "Cardo", serif;
+    box-shadow: 0 1px 15px rgba(47, 47, 47, 0.10);    
+    background-color: #fff;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;   
+}
+
+header h1{
+    min-width: 250px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08rem;
+    padding: 8px 0;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    padding: 0 410px;
+    display: flex;
+    list-style: none;
+    
+}
+
+ul li{
+    padding-right: 24px ;
+}
+
+nav a{
+    height: 40px;
+    font-size: 24px;
+    color: #474747;
+    max-width: 111px;
+    padding: 8px 24px;
+    text-decoration: none;
+}
+
+
+#about {
+    height: 288px;
+    padding: 80px 96px;
+    max-width: 1440px;
+    min-height: 968px;
+    padding-top: 800px;
+    justify-content: space-between;
+    padding: 80px 96px;
+    display: flex;
+}
+
+
+
+
+
+#about .container  p.contP{
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    min-width: 616px;
+    font-size: 16px;
+    color: #474747;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+    font-family: "Mate", serif;
+}
+
+
+
+#about span{
+    color: #474747;
+    font-style: italic;
+    height: 10px;
+    display: inline-block;
+    font-weight: 400;
+    min-width: 616px;
+    font-family: 'Mate', serif;
+    letter-spacing: 0.04rem
+}
+
+#about .container2  span.contPC{
+    min-width: 616px;
+    font-size: 16px;
+    letter-spacing: 0.04rem;
+}
+
+#about h1{
+    color: #010101;
+    font-weight: 700;
+    max-width: 616px;
+    min-height: 64px;
+    margin-top: 0;
+    font-size: 64px;
+    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 16px;
+    
+
+    
+}
+
+
+#game-img{
+    max-width: 511px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 121px;
+    margin-right: 96px;
+    max-height: 764px;
+}
+
+
+#game-img img{
+    padding-top: 21px;
+    max-width: 511px;
+    min-width: 511px;
+    max-height: 764px;
+}
+
+#about .Syn .container p{
+    min-width: 616px;
+    min-height: 48px;
+    max-height: 168px;
+}
+
+
+
+
+.contP{
+    min-width: 616px;
+    max-height: 192px;
+    padding-left: 0;
+    
+}
+.contP2{
+    min-width: 616px;
+    padding-left: 0; 
+}
+
+#Syn .contP2 p{
+    color: #474747;
+    max-width: 616px;
+    min-width: 616px;
+    margin-bottom: 0;
+    margin-top: 22px;
+}
+
+#about p.contPC {
+    color: #020283;
+    margin-top: 0;
+    font-size: 16px;
+    min-height: 168px;
+    min-width: 616px;
+    
+    
+}
+
+#about p.contPCs {
+    color: #020283;
+    margin-top: 0;
+    font-size: 16px;
+    font-style: italic;
+    min-height: 96px;
+    max-height: 96px;
+    min-width: 626px;
+    
+    
+}
+#about span.contPC{
+    margin-bottom: 0;
+    min-height: 48px;
+    color: #020283;
+    font-size: 16px;
+    max-height: 96px;
+    letter-spacing: 0.04rem;
+
+}
+
+
+#about span{
+    padding-bottom: 48px;
+}
+
+
+
+#about .container2 h2{
+    width: 616px;
+    height: 32px;
+    font-family: "Cardo", serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #010101;
+    
+}
+
+
+
+#links{
+padding: 0 0;
+}
+
+
+#links button{
+    background-color: #D7D7FE;
+    border: none;
+    width: 147px;
+    height: 48px;
+    padding: 12px 48px;    
+    border-radius: 8px;
+    margin: 48px 24px 0 0 ;    
+}
+
+
+#links button a{
+    width: 54px;
+    height: 24px;
+    text-align: center;
+    font-weight: 400;
+    color: #0E0EFB;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Crimson Text' serif;
+    text-decoration: none;
+} 
+
+#about .container{
+    max-height: 808px;
+}
+
+
+.divider img{
+    width: 816px;
+    height: 37px;
+    display: flex;
+}
+
+.divider{
+    display: flex;
+    height: 37px;
+
+}
+
+
+#contestants .title h1{
+    text-align: center;
+    line-height: 64px;
+    font-weight: 700;
+    font-size: 64px;
+    padding-top: 80px;
+}
+
+#contestants .charBio{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    width: 1038px;
+    max-height: 613px;
+    
+
+}
+
+#charAtual{
+    padding-left: 9px;
+    width: 282px;
+    height: 613px;
+    padding-top: 58px;
+    background-image: url("./images/BackgroundContainer/BackContainerSelect.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+.Caracteristica {
+    padding-left: 48px;
+    margin-top: 19px;
+    margin-left: 16px;
+    margin-bottom: 0;
+    height: 613px;
+    color: #fff;
+    background-color: #524F64;
+}
+
+.Caracteristica h1 {
+    text-align: start;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 64px;
+    margin-top: 40px;    
+
+}
+
+.Caracteristica h3{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.02rem;
+}
+
+.Caracteristica .container{
+    max-height: 740px;
+}
+
+
+.dividerLine  img{
+    margin-top: 24px;
+    height: 1px;
+    width: 626px;
+}
+
+
+.info{
+    margin-top: 24px;
+    padding-left: 0;
+}
+
+
+.info p{
+    width: 626px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+
+.info p.p2{
+    height: 144px;
+
+}
+
+
+.container5{
+    display: flex;
+    width: 1038px;
+}
+
+.container5 img{
+    max-height: 132px;
+    max-width: 132px;
+    margin-top: 40px;
+    margin-left: 16px;
+    &:hover{
+        cursor: pointer;
+        filter: brightness(2.2);
+    }
+}
+
+.container6{
+    display: flex;
+    width: 1038px;
+}
+
+.container6 img{
+    max-height: 132px;
+    max-width: 132px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.divider2{
+    display: flex;
+    margin-top: 80px;
+    height: 37px;
+
+}
