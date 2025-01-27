@@ -1,3 +1,11 @@
+@font-face {
+    font-family: Olde-sans;
+    src: url('./fonts/OldeEnglish.ttf');
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -269,6 +277,7 @@ padding: 0 0;
     font-weight: 700;
     font-size: 64px;
     padding-top: 80px;
+    font-family: "Cormorant Garamond", serif;
 }
 
 #contestants .charBio{
@@ -277,8 +286,6 @@ padding: 0 0;
     margin-top: 48px;
     width: 1038px;
     max-height: 613px;
-    
-
 }
 
 #charAtual{
@@ -290,7 +297,7 @@ padding: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: top;
-}
+} 
 
 .Caracteristica {
     padding-left: 48px;
@@ -299,6 +306,7 @@ padding: 0 0;
     margin-bottom: 0;
     height: 613px;
     color: #fff;
+    font-family: 'Mate', serif;
     background-color: #524F64;
 }
 
@@ -308,6 +316,7 @@ padding: 0 0;
     font-weight: 400;
     line-height: 64px;
     margin-top: 40px;    
+    font-family: Olde-sans;
 
 }
 
@@ -315,6 +324,7 @@ padding: 0 0;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
+    font-family: 'Cardo', sans-serif;
     letter-spacing: 0.02rem;
 }
 
@@ -345,6 +355,7 @@ padding: 0 0;
     letter-spacing: 0.04rem;
     margin-bottom: 0;
     padding-bottom: 0;
+    font-family: 'Mate', serif;
     
 }
 
