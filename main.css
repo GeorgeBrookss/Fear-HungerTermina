@@ -286,8 +286,6 @@ padding: 0 0;
     margin-top: 48px;
     width: 1038px;
     max-height: 613px;
-    
-
 }
 
 #charAtual{
@@ -299,7 +297,7 @@ padding: 0 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: top;
-}
+} 
 
 .Caracteristica {
     padding-left: 48px;
