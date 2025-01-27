@@ -378,13 +378,13 @@ function resetarPadd(){
             const ico6 = document.getElementById('charPav');
             ico6.src = 'images/SelecaoNoClick/pav.png';
             pict.src = "images/CharacterProfile/image 6.png";
-            nome.textContent = 'Olivia'
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
+            nome.textContent = 'Pav'
+            age.textContent = '??';
+            soul.textContent = 'Chaotic soul';
+            bio1.textContent = 'Pavel Yudin, more often referred to as just Pav, is an sly-looking former lieutenant of the Bremen army, and his skill set is focused around commanding and fast gunfighting. ';
+            bio2.textContent = "Pav's hometown in Voroniya was destroyed by Kaiser during the First Great War, resulting in the death of his family and relatives. Seeking revenge against the man who caused his suffering and hoping to prevent others from experiencing the same. Pav is a sly, mischievous and chaotic man who is prone to violence and cares little about what others think of him. He is reckless, he casually threatens people who get in his way, and will even attempt to murder those who show any kind of hostility.";
+            bio2.style.padding= '16px 0'
 
-            
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
                     const ico2 = document.getElementById('charAbella');
@@ -444,12 +444,12 @@ function resetarPadd(){
             const ico7 = document.getElementById('charMarcoh');
             ico7.src = 'images/SelecaoNoClick/marcoh.png';
             pict.src = "images/CharacterProfile/image 7.png";
-            nome.textContent = 'Olivia';
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'Marcoh';
+            age.textContent = '31';
+            soul.textContent = 'Tainted soul';
+            bio1.textContent = 'Though initially reserved, Marcoh proves to be kindhearted over the course of the game. He is ready to risk his life helping other contestants, such as Olivia and Tanaka.';
+            bio2.textContent = "Despite his strength and nature as a boxer, Marcoh is notably more shy and quiet in comparison to the other contestants. When talked to inside of the train, Marcoh is initially silent and will act flustered when the player attempts to make conversation with him. This is seemingly out of Marcoh's social awkwardness rather than feelings of disdain or mistrust towards the player character. Despite this, Marcoh is otherwise cooperative and friendly with the other contestants.";
+            bio2.style.padding = '16px 0'
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
@@ -510,12 +510,12 @@ function resetarPadd(){
             const ico8 = document.getElementById('charLevi');
             ico8.src = 'images/SelecaoNoClick/levi.png';
             pict.src = "images/CharacterProfile/image 8.png";
-            nome.textContent = 'Olivia';
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'Levi';
+            age.textContent = '18';
+            soul.textContent = 'Solitary soul';
+            bio1.textContent = 'Levi is a nervous loner who seems reluctant to grow close to others. Once the train arrives, he immediately flees into the city, and will initially retreat from the player when approached.';
+            bio2.textContent = 'An ex-soldier who has fought in wars since he was 13 years old, Levi excels at ranged combat and has a great aim with most firearms. Throughout the festival, Levi suffers from both paranoia and the effects of heroin withdrawal. At first, he believes the other contestants are hunting for him, causing him to withdraw from them whenever possible. Though he is often quiet and reserved, Levi can warm up to the other passengers after being recruited. He desires to leave his past behind.';
+            bio2.style.padding = '16px 0'
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
@@ -576,12 +576,12 @@ function resetarPadd(){
             const ico9 = document.getElementById('charMarina');
             ico9.src = 'images/SelecaoNoClick/marina.png';
             pict.src = "images/CharacterProfile/image 9.png";
-            nome.textContent = 'Olivia';
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'Marina';
+            age.textContent = '18';
+            soul.textContent = 'Changeling soul';
+            bio1.textContent = "Marina is a curious young woman who speaks very informally. She often speaks her mind about any given situation. An occultist that has refined her craft from a prestigious school, Marina focuses on the creative use of otherworldly powers, her abilities providing useful and unique buffs and effects. ";
+            bio2.textContent = 'As a former resident of Prehevil, Marina is knowledgeable about various parts of the city, and will freely share what she knows with others. She has an intense distaste for her hometown, and does not seem disturbed by the disaster that has afflicted it. She would grow up homeschooled near the church and follow an orthodox path different from that of dark priests.';
+            bio2.style.padding = '42px 0'
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
@@ -642,12 +642,12 @@ function resetarPadd(){
             const ico10 = document.getElementById('charSamarie');
             ico10.src = 'images/SelecaoNoClick/samarie.png';
             pict.src = "images/CharacterProfile/image 10.png";
-            nome.textContent = 'Olivia';
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'Samarie';
+            age.textContent = '18';
+            soul.textContent = 'Radiating Soul';
+            bio1.textContent = "Samarie is a secretive dark priest apprentice and a participant in the Termina festival. In the Vatican City, she was part of an exclusive group of naturally gifted children who were sequestered in the ninth circle of Fiend Petr's Basilica. ";
+            bio2.textContent = "During her confinement, Samarie became infatuated with Marina, a regular student at the Vatican. This infatuation quickly evolved into an obsession, prompting Samarie to secretly observe Marina's every move, even resorting to reading her thoughts. Samarie is a disturbed and obsessive young woman who will go to lengths to follow Marina. Despite this, she is extremely secretive and actively hides herself from Marina and the others while on the train. ";
+            bio2.style.padding = "16px 0"
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
@@ -705,12 +705,12 @@ function resetarPadd(){
             const ico11 = document.getElementById('charTanaka');
             ico11.src = 'images/SelecaoNoClick/tanaka.png';
             pict.src = "images/CharacterProfile/image 11.png";
-            nome.textContent = 'tanakara';
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'Tanaka';
+            age.textContent = '??';
+            soul.textContent = 'Latent soul';
+            bio1.textContent = "Tanaka is an Edoan businessman who has travelled far to Europa to take an advantage of the political turmoil to further his family's business.";
+            bio2.textContent = "Tanaka is a timid and polite person, with many constant worries about failing his father and his business. He was raised to only rely on himself and he has a non-stop work mentality, seeming especially anxious that the train stopping will make him late, although he remains kind and helpful to the other people from the train out of formality. Also, his lack of survival skills and over-reliance on himself means that Tanaka more often than not finds himself in danger more than the other contestants.";
+            bio2.style.padding = '3px 0';
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
@@ -769,12 +769,12 @@ function resetarPadd(){
             const ico12 = document.getElementById('charHenryk');
             ico12.src = 'images/SelecaoNoClick/henryk.png';
             pict.src = "images/CharacterProfile/image 12.png";
-            nome.textContent = 'henrique';
-            age.textContent = '27';
-            soul.textContent = 'coomer';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'Henryk';
+            age.textContent = '32';
+            soul.textContent = 'Suffocated soul';
+            bio1.textContent = 'Henryk is a chef from the Kingdom of Rondon with an acute taste for ingredients.  He had always dreamed becoming someone important by creating something great, whether it be a musician, artist or actor - he eventually "dipped his toes in everything", but did not take well to rejection and in the end gave up those plans.';
+            bio2.textContent = "Henryk is very passionate about cooking food, and it is the main thing he seems to enjoy in life. He can be quite laid back but has low self-esteem, often trying to seek the approval of other contestants with his cooking and will seem devastated if anyone doesn't like it. He can also be impulsive sometimes making perverted remarks towards Abella at the train and starting a fight with Caligura.";
+            bio2.style.padding = '62px 0'
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
@@ -835,12 +835,12 @@ function resetarPadd(){
             const ico13 = document.getElementById('charCaligura');
             ico13.src = 'images/SelecaoNoClick/caligura.png';
             pict.src = "images/CharacterProfile/image 13.png";
-            nome.textContent = 'Olivia';
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'Caligura';
+            age.textContent = '??';
+            soul.textContent = 'Decrepit soul';
+            bio1.textContent = 'Caligura is a hostile and foul-mouthed man who is not above assaulting and murdering others.';
+            bio2.textContent = "Caligura's cruel ways and his ghoulish appearance earned him the nickname 'Count Dragul' among his peers. His reputation as a mobster is influent enough for other contestants to know who he is: journalist Karin recognizes him from the train and a possible altercation that he has with Henryk implies that the chef either heard of Caligura or actually ran into him before. He is a caporegime, or a captain, for a rival branch to the Accardos in The Family. During the festival, he is one of the select few participants who will actively engage in killing the other contestants.";
+            resetarPadd();
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
@@ -902,12 +902,12 @@ function resetarPadd(){
             const ico14 = document.getElementById('charAugust');
             ico14.src = 'images/SelecaoNoClick/august.png';
             pict.src = "images/CharacterProfile/image 14.png";
-            nome.textContent = 'Olivia';
-            age.textContent = '27';
-            soul.textContent = 'drip';
-            bio1.textContent = 'bigode estiloso';
-            bio2.textContent = 'goat de todo o jogo';
-
+            nome.textContent = 'August';
+            age.textContent = '??';
+            soul.textContent = 'Tormented soul';
+            bio1.textContent = "August had embraced a nomadic lifestyle, traversing many countries around the world.";
+            bio2.textContent = "August is very kind towards the other contestants, but is quite reserved and keeps his distance from everybody for much of the Festival, revealing little about his life or intentions to others until the final day. He is very resilient and greatly capable of defending himself, and will sometimes go out of his way to assist the other contestants by protecting them or providing them with medical supplies. However, he will not hesitate to immediately turn on other contestants whenever he perceives them as a threat.";
+            resetarPadd();
             
                     const ico = document.getElementById('charDaan');
                         ico.src = './images/SelecaoOnClick/daan-2.png';
