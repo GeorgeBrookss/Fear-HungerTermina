@@ -3,7 +3,9 @@
     src: url('./fonts/OldeEnglish.ttf');
 }
 
-
+#menu-hamburger{
+    display: none;
+}
 
 
 *{
@@ -261,7 +263,7 @@ padding: 0 0;
 .divider img{
     width: 816px;
     height: 37px;
-    display: flex;
+
 }
 
 .divider{
@@ -402,5 +404,273 @@ padding: 0 0;
     display: flex;
     margin-top: 80px;
     height: 37px;
+
+}
+
+
+@media screen and (min-width: 327px) and (max-width: 452px) {
+    
+    
+    
+    
+    header{
+        max-width: 327px;
+        min-width: 327px;
+        margin: 0 0;
+        padding: 12px;
+    }
+
+    nav h1{
+        font-size: 16px;
+        max-width: 291px;
+        
+        
+
+    }
+
+    nav{
+        max-width: 327px;
+        min-height: 72px;
+    }
+    nav img{
+        padding-left: 71px;
+    }
+    .container{
+        margin: 0 0;
+        padding: 0 0;
+    }
+    #menu-hamburger{
+        display: flex;
+        height: 40px;
+        width: 40px;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    ul {
+        padding: 0 410px;
+        display: block;
+        list-style: none;
+        
+    }
+    nav a{
+        height: 40px;
+        font-size: 24px;
+        color: #474747;
+        max-width: 111px;
+        padding: 14px 0px;
+        display: none;
+        text-decoration: none;
+    }
+
+    #about{
+        max-width: 327px;
+        max-height: 316px;
+        margin: 64px 24px;
+        padding: 0;
+    }
+
+    #about h1{
+        max-height: 36px;
+        max-width: 279px;
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 0;
+    }
+    #about p{
+        max-width: 279px;
+        max-height: 80px;
+        font-size: 14px;
+        letter-spacing: 0.04rem;
+        line-height: 20px;
+    }
+
+    #Syn .container2{
+        max-width: 327px;
+        max-height: 316px;
+        margin: 64px 24px;
+        padding: 0;
+    }
+
+    
+    
+#Syn .contP2 p{
+    color: #474747;
+    max-width: 279px;
+    min-width: 279px;
+    min-height: 290px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+#about p.contPC {
+    color: #020283;
+    font-size: 16px;
+    min-height: 68px;
+    min-width: 279px;
+    padding-bottom: 0;
+    max-width: 279px;
+    
+}
+
+#about p.contPCs {
+    color: #020283;
+    margin-top: 0;
+    font-size: 14px;
+    font-style: italic;
+    min-width: 279px;
+    padding-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    max-height: 160px ;
+    min-height: 160px;
+    
+    
+}
+#about .container2 span.contPC{
+    
+    
+    color: #020283;
+    font-size: 14px;
+    max-width: 279px;
+    min-width: 279px;
+    padding-bottom: 40px; 
+
+}
+
+
+
+#links button{
+    width: 120px;
+    padding: 0 24px;
+    margin-left: 10px;
+}
+
+#links  button a{
+    min-width: 40px;
+    max-width: 40px;
+
+}
+
+#about h2.h5{
+    margin-top: 8px;
+    height: 32px;
+}
+
+    #game-img {
+        max-height: 400px;
+        max-width: 29px;
+        min-width: 20px;
+        padding-left: 0;
+        padding-bottom: 400px; 
+    }
+
+    #game-img img{
+        max-width: 279px;
+        min-width: 279px;
+        height: 690px;
+        margin: 40px 24px;
+        padding-top: 260px;
+
+    }
+
+    .divider img{  
+        margin-top: 588px;
+
+    }
+
+
+    #contestants{
+        padding-top: 600px;
+    }
+
+    #contestants h1{
+        width: 279px;
+        height: 36px;
+        font-size: 36px;
+        margin-bottom: 24px;
+        padding-left: 10px;
+    }
+
+    #contestants .container{
+        max-width: 279px;
+        min-width: 279px;
+    }
+
+    #contestants .container p{
+        font-size: 14px;
+        max-width: 215px;
+    }
+
+
+    #contestants .charBio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px;
+        margin-bottom: 1600px;
+        width: 279px;
+        max-height: 613px;
+        padding-top: 100px;
+    }
+    
+
+    
+    .Caracteristica {
+        padding-top: 0px;
+        margin-top: 0;
+        margin-left: 50px;
+        padding-left: 16px;
+        margin-bottom: 0;
+        height: 613px;
+        color: #fff;
+        font-family: 'Mate', serif;
+        background-color: #524F64;
+    }
+    
+
+    .Caracteristica h1 {
+        text-align: center;
+        text-align: start;
+        font-size: 64px;
+        margin-left: 32px;
+        font-weight: 400;
+        line-height: 64px;
+        padding: 0;
+        margin-top: 0;    
+        font-family: Olde-sans;
+    
+    }
+    
+    .Caracteristica h3{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        font-family: 'Cardo', sans-serif;
+        letter-spacing: 0.02rem;
+    }
+    
+    .charBio .container{
+        min-height: 800px;
+}
+    #charAtual{
+        margin-left: 24px;
+        width: 282px;
+        height: 613px;
+        padding-top: 58px;
+        background-image: url("./images/BackgroundContainer/BackContainerSelect.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: top;
+    } 
+
+
+    #bio1{
+        margin-bottom: 140px;
+    }
+
 
 }
