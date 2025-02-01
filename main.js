@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-    
+
+    menu();
+
     DaanBio = false;
     AbellaBio = false;
     OsaaBio = false;
@@ -22,6 +24,31 @@ document.addEventListener('DOMContentLoaded', function(){
 
 function resetarPadd(){
     bio2.style.padding = '0 0'
+}
+
+function addPadd(){
+    about.style.marginTop = '175px'
+}
+
+function resetarMarg(){
+    about.style.marginTop = '2px'
+}
+
+
+function menu(){
+    const menuBurg = document.getElementById('menu-burg');
+    menuBurg.addEventListener('click', function(){
+        const navmenu = document.getElementById('navLink')
+        const navdisplay =window.getComputedStyle(navmenu).display;
+        if(navdisplay === 'none'){
+            navmenu.style.setProperty('display', 'block');
+            addPadd();
+        }else{
+            navmenu.style.setProperty('display', 'none');
+            resetarMarg();
+
+        }
+    });
 }
 
 
@@ -961,4 +988,79 @@ function resetarPadd(){
 
         });
     }
+
+    if(!DaanBio){
+
+        const DaanBio = document.getElementById('charDaan-mobile');
+        DaanBio.addEventListener('click', function(){
+
+
+
+            const pict = document.getElementById('charAtual');
+            const ico = document.getElementById('charDaan');
+            ico.src = 'images/SelecaoNoClick/daan.png'
+            pict.src = "images/CharacterProfile/image 1.png"
+            nome.textContent = 'Daan';
+            age.textContent = '28';
+            soul.textContent = 'Blank soul';
+            bio1.textContent = 'Daan is a smart and inquisitive man who uses his medical knowledge and experience with the occult to help make sense of the world around him.';
+            bio2.textContent = "He is fairly independent, quickly setting off on his own to investigate Prehevil. However, he is happy to help others when the need arises, such as when he offers to mix drinks for contestants in PRHVL Bop. Daan can be found caring for the townspeople when not playing as him, and he is often polite and even caring towards the other contestants, indicating he has a compassionate side to him. Based on the player's descriptions of his drinks, he seems to have a talent for it. His signature drink, according to him, is an old-fashioned.";
+            resetarPadd();
+
+                    const ico2 = document.getElementById('charAbella');
+                        ico2.src = './images/SelecaoOnClick/abella-2.png';
+                    const ico3 = document.getElementById('charOsaa');
+                        ico3.src = './images/SelecaoOnClick/osaa-2.png';
+                    const ico4 = document.getElementById('charOlivia');
+                        ico4.src = './images/SelecaoOnClick/olivia-2.png';
+                    const ico5 = document.getElementById('charKarin');
+                        ico5.src = './images/SelecaoOnClick/karin-2.png';
+                    const ico6 = document.getElementById('charPav');
+                        ico6.src = './images/SelecaoOnClick/pav-2.png';
+                    const ico7 = document.getElementById('charMarcoh');
+                        ico7.src = './images/SelecaoOnClick/marcoh-2.png';
+                    const ico8 = document.getElementById('charLevi');
+                        ico8.src = './images/SelecaoOnClick/levi-2.png';
+                    const ico9 = document.getElementById('charMarina');
+                        ico9.src = './images/SelecaoOnClick/marina-2.png';
+                    const ico10 = document.getElementById('charSamarie');
+                        ico10.src = './images/SelecaoOnClick/samarie-2.png';
+                    const ico11 = document.getElementById('charTanaka');
+                        ico11.src = './images/SelecaoOnClick/tanaka-2.png';
+                    const ico12 = document.getElementById('charHenryk');
+                        ico12.src = './images/SelecaoOnClick/henryk-2.png';
+                    const ico13 = document.getElementById('charCaligura');
+                        ico13.src = './images/SelecaoOnClick/caligura-2.png';
+                    const ico14 = document.getElementById('charAugust');
+                        ico14.src = './images/SelecaoOnClick/august-2.png';
+
+
+        
+
+
+        
+        
+        DaanBio = true;
+
+
+        AbellaBio = false;
+        OsaaBio = false;
+        OliviaBio = false;
+        KarinBio = false;
+        PavBio = false;
+        MarcohBio = false;
+        LeviBio = false;
+        MarinaBio = false;
+        SamarieBio = false;
+        TanakaBio = false;
+        HenrykBio = false;
+        CaliguraBio = false;
+        AugustBio = false;
+
+        
+
+
+
+    });
+    } 
 });
