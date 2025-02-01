@@ -3,10 +3,15 @@
     src: url('./fonts/OldeEnglish.ttf');
 }
 
-#menu-hamburger{
+.container-nav img{
     display: none;
 }
 
+
+
+#carouselExampleRide{
+    display: none;
+}
 
 *{
     margin: 0;
@@ -19,6 +24,7 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+
 header{
     max-width: 100dvw;
     max-height: 88px;
@@ -26,6 +32,7 @@ header{
     font-family: "Cardo", serif;
     box-shadow: 0 1px 15px rgba(47, 47, 47, 0.10);    
     background-color: #fff;
+
 }
 
 .container{
@@ -51,7 +58,7 @@ ul {
     padding: 0 410px;
     display: flex;
     list-style: none;
-    
+
 }
 
 ul li{
@@ -411,13 +418,19 @@ padding: 0 0;
 @media screen and (min-width: 327px) and (max-width: 452px) {
     
     
-    
+    nav img{
+        width: 40px;
+        
+    }
+
     
     header{
         max-width: 327px;
         min-width: 327px;
         margin: 0 0;
         padding: 12px;
+        
+
     }
 
     nav h1{
@@ -431,10 +444,17 @@ padding: 0 0;
     nav{
         max-width: 327px;
         min-height: 72px;
+        
     }
-    nav img{
-        padding-left: 71px;
+    .container-nav{
+        display: flex;
     }
+
+    .container-nav img{
+        display: block;
+    }
+
+
     .container{
         margin: 0 0;
         padding: 0 0;
@@ -451,10 +471,15 @@ padding: 0 0;
         justify-content: space-between;
     }
     ul {
-        padding: 0 410px;
+        padding: 0 0;
         display: block;
         list-style: none;
+
         
+    }
+
+    #navLink{
+        display: none;
     }
     nav a{
         height: 40px;
@@ -462,7 +487,6 @@ padding: 0 0;
         color: #474747;
         max-width: 111px;
         padding: 14px 0px;
-        display: none;
         text-decoration: none;
     }
 
@@ -611,11 +635,13 @@ padding: 0 0;
         flex-direction: column;
         align-items: center;
         margin-top: 48px;
-        margin-bottom: 1600px;
+        margin-bottom: 1100px;
         width: 279px;
         max-height: 613px;
         padding-top: 100px;
     }
+
+
     
 
     
@@ -654,7 +680,7 @@ padding: 0 0;
     }
     
     .charBio .container{
-        min-height: 800px;
+        min-height: 1000px;
 }
     #charAtual{
         margin-left: 24px;
@@ -668,9 +694,47 @@ padding: 0 0;
     } 
 
 
-    #bio1{
-        margin-bottom: 140px;
+    #bio2{
+        margin-top: 169px;
+    }
+
+    #carouselExampleRide{
+        display: block;
+    }
+
+    .carousel {
+    max-width: 279px;
+    margin-left: 24px;
+    }
+    .carousel-item img{
+        max-height: 100px;
+        max-width: 100px;
+        min-width:100px;
+        min-height: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    .container5{
+        display: none;
+    }
+
+    .container6{
+        display: none;
     }
 
 
+    .carousel-control-next{
+        padding-left: 20px;
+        
+    }
+
+    .carousel-item .fst-it {
+        margin-left: 38px;
+    }
+    
+    .carousel-control-prev{
+        padding-right: 8px;
+        padding-left: 8px;
+        
+    }
 }
