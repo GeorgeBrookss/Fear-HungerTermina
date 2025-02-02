@@ -734,6 +734,11 @@ padding: 0 0;
 
     }
 
+    body{
+        overflow-x: hidden;
+        height: 100%;
+    }
+
     .carousel {
     max-width: 279px;
     margin-left: 50px;
