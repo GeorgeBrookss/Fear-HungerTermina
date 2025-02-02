@@ -851,6 +851,10 @@ padding: 0 0;
 @media screen and (min-width: 327px) and (max-width: 447px) {
     
     
+    *{
+        max-width: 376px;
+        overflow-x: hidden;
+    }
     nav img{
         width: 40px;
         margin-left: 10%;
