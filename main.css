@@ -4,8 +4,19 @@
 }
 
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container-nav img{
     display: none;
+}
+
+html, body{
+    overflow-x: hidden;
 }
 
 
@@ -29,7 +40,6 @@ ul {
 
 body{
     width: 100%;
-    overflow-x: hidden;
     height: 100%;
 
 
@@ -449,15 +459,6 @@ padding: 0 0;
     
 }
 
-body{
-    width: 100%;
-    overflow-x: hidden;
-    height: 100%;
-
-
-    margin: 0 auto;
-}
-
 header{
     max-height: 88px;
 
@@ -851,14 +852,12 @@ padding: 0 0;
 @media screen and (min-width: 327px) and (max-width: 447px) {
     
     
-    *{
-        max-width: 376px;
-        overflow-x: hidden;
-    }
+
     nav img{
         width: 40px;
         margin-left: 10%;
     }
+    
 
     
     header{
@@ -901,18 +900,19 @@ padding: 0 0;
         flex-direction: column;
         justify-content: space-between;
     }
-    ul {
-        padding: 0 0;
-        display: block;
-        list-style: none;
-        margin-top: 40px;
-        margin-left: 24px;
-
-        
-    }
+    
 
     #navLink{
         display: none;
+        max-width: 400px;
+        width: 200px;
+    }
+
+    ul{
+        max-width: 400px;
+        width: 200px;
+        padding-left: 0; 
+        padding-top: 20px;
     }
     nav a{
         height: 40px;
@@ -1154,10 +1154,6 @@ padding: 0 0;
 
     }
 
-    body{
-        overflow-x: hidden;
-        height: 100%;
-    }
 
     .carousel {
     max-width: 279px;
